@@ -6,23 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>INTRODUCTION</title>
-    <style>
-            h1 {
-            text-align: center;
-            color: black;
-            font-size: 36px;
-        }
-        
-        .container {
-            padding: 10px;
-            margin: 5px;
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
         <section>
-            <div>
+            <div class="h1">
                 <h1>LES HYPERLIENS</h1>
             </div>
 
@@ -32,7 +22,7 @@
                 <a href="#structure">structure</a><br>
                 <a href="#typelien">typelien</a><br>
             </div>
-            <div>
+            <div class="h2">
                 <h2>INTRODUTION</h2>
             </div>
             <hr>
@@ -64,7 +54,7 @@
         <hr>
         <section>
          <div id="structure" >   
-           <div><h2>Structure d‘un lien hypertexte</h2></div>  
+           <div class="h2"><h2>Structure d‘un lien hypertexte</h2></div>  
            <div>
             <p>   
                 L’élément a se compose d’une balise de début et d’une balise de fin.
@@ -109,7 +99,7 @@
         <section>
         <hr>
          <div id="typelien">
-          <div><h2>Liens hypertextes internes</h2></div>
+           <div class="h2"><h2>Liens hypertextes internes</h2></div>
            <div>
             <p>
                 L'organisation de liens internes au sein d'un site Web suit des structures distinctes. 
@@ -128,13 +118,14 @@
                 est l’un des facteurs centraux d’un bon classement dans les moteurs de recherche .
             </p> 
            </div>
-           <div><h2>Liens hypertextes externes</h2></div>
+           <div class="h2"><h2>Liens hypertextes externes</h2></div>
            <div>
             <p>
                 Les hyperliens externes correspondent aux liens d'un site vers . Selon le point de vue,
                 un lien entre deux domaines sera qualifié d’entrant ou de sortant.
             </p>
-           <div><h5> Liens hypertextes sortants</h5></div>
+           </div>
+            <span><h5> Liens hypertextes sortants</h5></span>
            <div>
             <p>
                 Les hyperliens sortants (outbound links en anglais) se réfèrent à tous les liens hypertextes de votre
@@ -151,8 +142,9 @@
                  rel avec la valeur noopener .
             </p>
            </div>
-           </div>
-           <div><h5>Liens hypertextes entrants</h5>
+           
+           <div>
+               <span><h5>Liens hypertextes entrants</h5></span>
            <div>
             <p>
                 Les hyperliens entrants (également appelés inbound links ou backlinks) se réfèrent aux liens de
