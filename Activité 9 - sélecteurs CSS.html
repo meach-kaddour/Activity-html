@@ -6,6 +6,43 @@
     <title>Characters</title>
     <style>
         /* style rules go here */
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .man {
+            color: red;
+        }
+        
+        .wom {
+            color: royalblue;
+        }
+        
+        ol {
+            letter-spacing: 5px;
+            list-style-position: inside;
+        }
+        
+        ol#middlemarch :first-child,
+        ol#taletwocities :nth-child(2) {
+            font-weight: bold;
+        }
+        
+        ol#middlemarch :nth-child(5),
+        ol#taletwocities :nth-child(5) {
+            font-style: italic;
+        }
+        
+        #middlemarch {
+            list-style-type: lower-roman;
+            margin: 10px;
+            padding-left: 300px;
+        }
+        
+        #taletwocities {
+            list-style-type: lower-alpha;
+        }
     </style>
 </head>
 
@@ -14,24 +51,25 @@
     <h2>Middlemarch</h2>
     <h3>George Eliot</h3>
     <ol id="middlemarch">
-        <li>Dorothea Brooke</li>
-        <li>Celia Brooke</li>
-        <li>Edward Casaubon</li>
-        <li>Sir James Chettam</li>
-        <li>Joshua Rigg</li>
-        <li>Will Ladislaw</li>
-        <li>Tertius Lydgate</li>
-        <li>Rosamond Vincy</li>
+        <li class="man">Dorothea Brooke</li>
+        <li class="wom">Celia Brooke</li>
+        <li class="man">Edward Casaubon</li>
+        <li class="man">Sir James Chettam</li>
+        <li class="man">Joshua Rigg</li>
+        <li class="man">Will Ladislaw</li>
+        <li class="man">Tertius Lydgate</li>
+        <li class="man">Rosamond Vincy</li>
     </ol>
     <h2>A Tale of Two Cities</h2>
     <h3>Charles Dickens</h3>
     <ol id="taletwocities">
-        <li>Charels Danay</li>
-        <li>Sydney Carton</li>
-        <li>Doctor Manette</li>
-        <li>Lucie Mantte</li>
-        <li>Madame Defarge</li>
-        <li>Miss Pross</li>
+        <li class="man">Charels Danay</li>
+        <li class="wom" id="brooke">Sydney Carton</li>
+        <li class="man">Doctor Manette</li>
+        <li class="wom">Lucie Mantte</li>
+        <li class="wom" id="madam">Madame Defarge</li>
+        <li class="wom">Miss Pross</li>
     </ol>
 </body>
+
 </html>

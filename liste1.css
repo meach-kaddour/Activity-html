@@ -1,0 +1,14 @@
+    li {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    h1 {
+        font-family: sans-serif;
+        font-style: oblique;
+        color: red;
+    }
+    
+    ul {
+        list-style-type: square;
+        list-style-image: url(my_triangle.png);
+    }
